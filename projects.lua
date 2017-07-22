@@ -31,5 +31,12 @@ workspace(path.getname(os.realpath(".")))
             {
                 "tinyxml2"
             }
+        
+        create_console_project("test-rapidxml", "src")
+            includedirs
+            {
+                "%{THIRD_PARTY}/doctest",                
+                "%{THIRD_PARTY}",
+            }
             
-    
+        
